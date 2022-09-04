@@ -38,6 +38,8 @@ body {
 .buttons {
     margin-top: 30px;
 }
+
+
  
 #btn4, #btn1, #btn2, #btn3 {
     background-color: #01BBFF;
@@ -45,6 +47,7 @@ body {
     font-size: 20px;
     color: #fff;
     border: 1px solid #1D3C6A;
+    border-radius: 10px;
     margin: 10px 40px 10px 0px;
     padding: 10px 10px;
 }
@@ -56,6 +59,11 @@ body {
  
 #btn4:focus, #btn1:focus, #btn2:focus, #btn3:focus {
     outline: 0;
+}
+
+#btn4:active, #btn1:active, #btn2:active, #btn3:active{
+    background-color: purple;
+    border: 1 px solid rgb(56, 92, 1);
 }
  
 #progress {
